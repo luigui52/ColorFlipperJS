@@ -1,0 +1,35 @@
+body{
+    background-color: red;
+}
+
+.content {
+    height: 90vh;
+    display: flex;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.child{
+    display: flex;
+}
+
+.content h1 {
+    background-color: black;
+    color: white;
+}
+
+#azul {
+    color: blue;
+}
+
+#boton{
+    border: solid 1px blue;
+    background-color: red;
+    color: black;
+}
+
+#boton:hover{
+    background-color: yellow;
+}
